@@ -1,0 +1,449 @@
+/*!
+ *
+ * Global CSS Layout Tweaks
+ *
+ */
+ 
+ 
+/*!*** Layout ***!*/
+ 
+.content-wrapper{
+	max-width:1000px; 
+	margin:0 auto;
+}
+
+/*Contenedor 2*/
+.content-wrapper2{
+	max-width:290px; 
+	margin:0 auto;
+}
+/*Fin contenedor 2*/
+ 
+.advert{
+    margin-bottom: 10px;
+    max-width: 930px;	
+}
+
+.logobar{
+    float: left;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    max-width: 930px;
+    width: 100%;
+}
+
+#toTop {
+        text-align:center;
+        padding:5px;
+        position:fixed; /* this is the magic */
+        bottom:10px; /* together with this to put the div at the bottom*/
+        right:10px;
+        cursor:pointer;
+        display:none;
+}
+
+.side-advert{
+		margin-bottom:15px;	
+}
+ 
+
+/*!*** Lastest Posts ***!*/
+ 
+ 
+.time-ago{
+    line-height: 20px;
+    margin-top: -20px;
+    padding: 0 10px;
+    position: absolute;
+    z-index: 10;
+}
+ 
+ 
+/*!*** Carousel ***!*/
+ 
+.item h4{
+	position:absolute;
+	top:0;
+	left:0;
+	margin:20px;	
+	padding:10px;
+	font-size:20px;
+}
+
+.item h4 a{
+	text-decoration:none;	
+}
+ 
+/*!*** Links ***!*/
+ 
+.lastest-post.img-wrap a, #latest-post p a{
+	text-decoration:none;	
+}
+
+
+/*!*** Meta ***!*/
+
+.meta-wrap {
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.meta{
+	position: relative;
+	top: 2px;
+}
+
+.dateTime{
+	font-size:11px;	
+}
+
+.meta-comments {
+    border-radius: 4px 4px 4px 4px;
+    font-size: 11px;
+    padding: 2px 5px;
+}
+
+.meta-comments a {
+    margin-right: 6px;
+    text-decoration: none;
+}
+
+.author a{
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;	
+}
+
+/*!*** Post ***!*/
+
+img.attachment-post-thumbnail {
+    height: auto !important;
+    max-width: 100%;
+	position:relative;
+	margin-bottom:15px;
+}
+
+a.readmore{
+	font-weight:bold;
+	text-decoration:none;
+	font-size:15px;
+}
+
+hr.heavy {
+    border-width: 2px;
+}
+
+.readmore{
+ 	display: block;
+    height: 20px;	
+}
+
+.post p a{
+	text-decoration:underline;	
+}
+
+.post h2 a{
+	text-decoration:none;	
+}
+
+/*!*** Pageinate ***!*/
+
+.paginate {
+    margin: 0;
+    padding: 0;
+}
+
+.paginate li {
+    display: inline;
+    list-style: none outside none;
+}
+
+.paginate li {
+    float: none;
+}
+
+.paginate .title {
+    margin-right: 4px;
+}
+
+.paginate .title {
+    display: none;
+}
+
+.paginate .current {
+    margin-right: 4px;
+    padding: 3px 6px;
+}
+
+.paginate a {
+    margin-right: 4px;
+    padding: 3px 6px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.paginate li a.next, .paginate li a.prev {
+    position: relative;
+}
+
+/*!*** Comments ***!*/
+
+.commentlist {
+    list-style: none outside none;
+    margin: 0;
+}
+
+.commentlist li.comment {
+    line-height: 24px;
+    margin: 0 0 24px;
+    padding: 0 0 0 56px;
+    position: relative;
+}
+
+.commentlist li.comment {
+    line-height: 24px;
+}
+
+.commentlist .avatar {
+    left: 0;
+    position: absolute;
+    top: 4px;
+}
+
+.comment-author cite {
+    font-style: normal;
+    font-weight: bold;
+}
+
+.comment-author .says {
+    font-style: italic;
+}
+
+.comment-meta {
+    font-size: 12px;
+    margin: 0 0 18px;
+}
+
+.reply {
+    font-size: 12px;
+    padding: 0 0 24px;
+}
+
+.commentlist .children {
+    list-style: none outside none;
+    margin: 0;
+}
+
+.commentlist .children li {
+    border: medium none;
+    margin: 0;
+}
+
+
+
+/*!*** FOOTER ***!*/
+.footercopy{
+    font-size: 11px;
+}
+
+.footerlists{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+/*!*** COLORS ***!*/
+
+
+.advert{
+    
+}
+
+.logobar{
+   
+}
+
+.lrgRule{
+ 	border-color:#ffffff;
+}
+
+#latest-post p a{
+	color:#333;
+}
+
+.lastest-post.img-wrap a{
+	color:#fff;
+}
+
+.item h4{
+	background:none repeat scroll 0 0 rgba(0, 0, 0, 0.75);
+}
+
+.item h4 a{
+	color:#fff;
+}
+
+.time-ago{
+    background: none repeat scroll 0 0 #0088CC;
+    color: #FFFFFF;
+}
+
+.meta-comments {
+    background: none repeat scroll 0 0 #000000;
+}
+
+.meta-comments a {
+    color: #FFFFFF;
+ }
+ 
+.meta-comments a:hover {
+	color: #666666;
+}
+
+.dateTime{
+	color: #666666;
+}
+
+.post p a{
+	color: #000;	
+} 
+
+.post p a:hover{
+	color: #999;	
+} 
+
+.post h2 a{
+	color: #333;
+}
+
+.comment-meta a{
+	color:#666;	
+}
+
+.commentlist li.comment {
+    border-bottom: 1px solid #E7E7E7;
+}
+
+.comment-author cite {
+    color: #000000;
+}
+
+.paginate .title {
+    color: #555555;
+}
+
+.paginate .current {
+    background: none repeat scroll 0 0 #0088CC;
+    border: 1px solid #89ADCF;
+    color: #FFFFFF;
+}
+
+.paginate a {
+    background: none repeat scroll 0 0 #DDDDDD;
+    border: 1px solid #CCCCCC;
+    color: #666666;
+}
+/* Estilos agregados */
+a.linkopacity img {
+    opacity: 0.6;
+}
+a.linkopacity:hover img {
+    opacity: 1;
+}
+
+/* ------ Estilos de los logos del footer ------*/
+
+.footerlists {
+	background-color: #FFF;
+	padding: 10px;
+	border-left-width: 6px;
+	border-left-style: solid;
+	border-left-color: #c62946;
+	margin-bottom:10px;
+	overflow: auto;
+}  
+ul.footerlists li {
+	float: left;
+	padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+}  
+/* ------ El Colombiano ------*/
+/*
+img.colombiano {
+	width:80px;
+	height:70px;
+	background-image: url(http://www.premiosmedellinalacalidaddelaeducacion.com/img/logos/elcolombiano.png);
+	background-position: 80px 0px;
+}
+img.colombiano:hover
+{
+	width:80px;
+	height:70px;
+	background-image: url(http://www.premiosmedellinalacalidaddelaeducacion.com/img/logos/elcolombiano.png);
+	background-position: 0px 0px;
+}
+/* ------ Proantioquia ------*
+img.proanqtioquia {
+	width:252px;
+	height:70px;
+	background-image: url(http://www.premiosmedellinalacalidaddelaeducacion.com/img/logos/proantioquira.jpg);
+	background-position: 252px 0px;
+}
+img.proanqtioquia:hover
+{
+	width:252px;
+	height:70px;
+	background-image: url(http://www.premiosmedellinalacalidaddelaeducacion.com/img/logos/proantioquira.jpg);
+	background-position: 0px 0px;
+}
+/* ------ El  Mundo ------*
+img.elmundo {
+	width:171px;
+	height:70px;
+	background-image: url(http://www.premiosmedellinalacalidaddelaeducacion.com/img/logos/el-mundo.jpg);
+	background-position: 171px 0px;
+}
+img.elmundo:hover
+{
+	width:171px;
+	height:70px;
+	background-image: url(http://www.premiosmedellinalacalidaddelaeducacion.com/img/logos/el-mundo.jpg);
+	background-position: 0px 0px;
+}
+/* ------ AlcaldÃ­a de MedellÃ­n ------*
+img.alcaldia {
+	width:192px;
+	height:70px;
+	background-image: url(http://www.premiosmedellinalacalidaddelaeducacion.com/img/logos/alcaldia.jpg);
+	background-position: 192px 0px;
+}
+img.alcaldia:hover
+{
+	width:192px;
+	height:70px;
+	background-image: url(http://www.premiosmedellinalacalidaddelaeducacion.com/img/logos/alcaldia.jpg);
+	background-position: 0px 0px;
+}
+*/
+footer{
+    margin-top: 20px;
+}
+
+.ajax-loader {
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('../img/loading.gif') 
+                50% 50% 
+                no-repeat;
+    
+    display: block;     
+}
+
+
